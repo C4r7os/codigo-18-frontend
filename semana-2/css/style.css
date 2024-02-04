@@ -1,0 +1,22 @@
+body{
+    background-color: #212529;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    display: block;
+}
+nav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+    list-style: none;
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+
+}

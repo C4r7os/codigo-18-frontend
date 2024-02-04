@@ -1,0 +1,73 @@
+/* configugacion global */
+/* margin - margen */
+/* paddin espacio interior</main> */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: Helvetica;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    /* centrar de forma vertical */
+    align-items: center;
+    /* centrar de formar horizantal */
+    justify-content: center;
+  }
+
+div{
+    background-color: hsl(0, 0%, 12%);
+    width: 375px;
+    padding: 30px;
+    align-content: center;
+    text-align: center;
+    border-radius: 16px;    
+}
+
+img{
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h2{
+    /* color: hsl(75, 94%, 57%); */
+    color: hsl(73, 100%, 68%);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+p{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: white;
+    /* display: block -> para que la etiqueta pase de line a bloque */
+    display: block;
+    margin-top: 20px;
+    /* margin-left: -40px; */
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+a:hover{
+    background-color: hsl(73, 100%, 68%);
+    color: black;
+}
